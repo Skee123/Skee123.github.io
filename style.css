@@ -1,0 +1,24 @@
+body{
+  background-color: Aquamarine;
+  font-family: : Arial, Helvetica, sans-serif;
+  padding:20px;
+}
+
+.styeled{/*Can use as many times as you want*/
+  background-color:red;
+  height: 100px;
+  width: 300px;
+  padding:20px;
+
+}
+#aboutme{/*Can use only once*/
+  background-color: blue;
+
+}
+h1{
+  text-align: center;
+}
+
+hr{
+  width:300px;
+}

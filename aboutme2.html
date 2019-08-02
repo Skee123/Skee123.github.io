@@ -1,0 +1,70 @@
+<html>
+  <head>
+      <meta charset="UTF-8">
+<link rel="stylesheet" href= "aboutme.css">
+  </head>
+        <style>
+          hr.new {
+        border-top: 100px ;
+      }
+      body{
+        font-size:20px;
+        font-family:Courier New, monospace;
+        font-weight: bold;
+      }
+
+          </style>
+
+
+    <body background="google.webp">>
+        <h1 align="center">Artwork</h1>
+      <hr class= "new">
+
+
+<img class="mySlides" src="art5.jpg">
+<img class="mySlides" src="art4.jpg">
+<img class="mySlides" src="art2.0.jpg">
+<img class="mySlides" src="art3.jpg">
+<script>
+   var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+
+
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+<br></br>
+<button onclick="window.location.href = 'file:///C:/Users/Skye%20Clarke/Desktop/Skee123.github.io/aboutme3.html';">Alright time to go somewhere again. Click me!</button>
+</body>

@@ -1,0 +1,18 @@
+import pprint
+pprint.pprint({"Angola":"Portuguese",
+"Barbados":"English",
+"Bolivia":"Spanish",
+"China":"Mandarin/Putonghua",
+"Cyprus":["Greek", "Turkish"],
+"Denmark":"Danish",
+"Finland":["Finnish","Swedish"],
+"Gabon":"French",
+"France":"French",
+"Guatemala":["Spanish","Amerindian languages"],
+"Haiti":"Creole and French",
+"Iraq":"Arabic",
+"Japan":"Japanese",
+"Kenya":"English",
+"Korea, South":"Korean",
+"Kosovo":"Albanian",
+})
